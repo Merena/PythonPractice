@@ -1,7 +1,12 @@
-import requests
+# import requests
 import re
 import json
+import os
+import urllib
+from pathlib import Path
+import parsel
 
+os.truncate()
 # url = 'http://exercise.kingname.info/ajax_1_backend'
 # url2 = 'http://exercise.kingname.info/ajax_1_postbackend'
 #
@@ -19,7 +24,21 @@ import json
 # print(c4)
 # print(c1)
 # print(c2)
+os.path.abspath('~')
+os.path.getatime()
 
-with open('text.txt', 'r', encoding='utf-8') as f:
-    content = f.readlines()
-    print(content)
+a = Path("/Users/mhm/Documents/python  standard  library.pdf")
+print(a)
+
+print(a.exists())
+print(a.group())
+print(a.home())
+print(a.is_dir())
+print(a.is_fifo())
+print(a.is_file())
+print(a.is_socket())
+a.stem
+
+# with open('text.txt', 'r', encoding='utf-8') as f:
+#     content = f.readlines()
+#     print(content)

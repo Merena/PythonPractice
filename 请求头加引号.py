@@ -13,4 +13,4 @@ fontcolor: #000000
 pattern = '^(.*?): (.*?)$'
 
 for line in headers_str.splitlines():
-    print(re.sub(pattern, '\'\\1\': \'\\2\',',line))
+    print(re.sub(pattern, r"'\1': '\2',",line))
