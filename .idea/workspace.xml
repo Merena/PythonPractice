@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="486ac8bc-332e-4e24-a294-3b4ac8b924c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/multiThread/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/processcomunicate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/test7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/test_concurent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/test_threading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/test_threading2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/testpool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/testsubprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonPractice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GithubSpider/Github.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GithubSpider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myscrapy/myscrapy/spiders/GithubSpider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myscrapy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myscrapy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myscrapy/myscrapy/execute.py" beforeDir="false" afterPath="$PROJECT_DIR$/myscrapy/myscrapy/execute.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/请求头加引号.py" beforeDir="false" afterPath="$PROJECT_DIR$/请求头加引号.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,100 +38,117 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multiThread/test_threading.py">
+        <entry file="file://$PROJECT_DIR$/知乎爬虫/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="184">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#47#77#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multiThread/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/GithubSpider/Github.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1702">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1562747500053" expanded="true" signature="2628:2807" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/签名设计/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/spiders/GithubSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/小说爬虫/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1679">
+              <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+              <folding>
+                <element signature="e#47#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬取小说/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/请求头加引号.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="440">
+              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multiThread/processcomunicate.py">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/parsel/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="257">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#47#89#0" expanded="true" />
+                <element signature="e#174#232#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multiThread/testpool.py">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/parsel/selector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multiThread/testsubprocess.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="208">
+              <caret line="294" column="8" selection-start-line="294" selection-start-column="8" selection-end-line="294" selection-end-column="8" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#39#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test5.py">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/parsel/utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="e#18#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,6 +162,14 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>code</find>
+      <find>code-list-item col-12 py-4 code-list-item-public</find>
+      <find>code-list-item col-12 py-4</find>
+      <find>raw-url</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -171,13 +190,19 @@
         <option value="$PROJECT_DIR$/test_threading.py" />
         <option value="$PROJECT_DIR$/test_threading2.py" />
         <option value="$PROJECT_DIR$/test_concurent.py" />
+        <option value="$PROJECT_DIR$/test5.py" />
+        <option value="$PROJECT_DIR$/myscrapy/myscrapy/execute.py" />
+        <option value="$PROJECT_DIR$/Github.py" />
+        <option value="$PROJECT_DIR$/myscrapy/myscrapy/spiders/GithubSpider.py" />
+        <option value="$PROJECT_DIR$/GithubSpider/Github.py" />
         <option value="$PROJECT_DIR$/请求头加引号.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="163" />
-    <option name="width" value="1142" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="68" />
+    <option name="y" value="23" />
+    <option name="width" value="1317" />
     <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -189,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,13 +225,292 @@
             <path>
               <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="GithubSpider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="GithubSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="Github.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="GithubSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="Github.py" type="8704e2dd:PyFileNode" />
+              <item name="GithubSpider" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
               <item name="multiThread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="multiThread" type="462c0819:PsiDirectoryNode" />
+              <item name="testpool.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="myscrapy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="myscrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="myscrapy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="myscrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="myscrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="myscrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="myscrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="GithubSpider.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="myscrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="myscrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="GithubSpider.py" type="8704e2dd:PyFileNode" />
+              <item name="GithubSpider" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="小说爬虫" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="爬取小说" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="爬取小说" type="462c0819:PsiDirectoryNode" />
+              <item name="__init__.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="签名设计" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="签名设计" type="462c0819:PsiDirectoryNode" />
+              <item name="__init__.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="test.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="441266147" type="70582d5e:PySkeletonsNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="441266147" type="70582d5e:PySkeletonsNode" />
+              <item name="builtins.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="441266147" type="70582d5e:PySkeletonsNode" />
+              <item name="builtins.py" type="8704e2dd:PyFileNode" />
+              <item name="list" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="441266147" type="70582d5e:PySkeletonsNode" />
+              <item name="builtins.py" type="8704e2dd:PyFileNode" />
+              <item name="set" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="parsel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="parsel" type="462c0819:PsiDirectoryNode" />
+              <item name="csstranslator.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="parsel" type="462c0819:PsiDirectoryNode" />
+              <item name="selector.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="parsel" type="462c0819:PsiDirectoryNode" />
+              <item name="selector.py" type="8704e2dd:PyFileNode" />
+              <item name="Selector" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="urllib3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="urllib3" type="462c0819:PsiDirectoryNode" />
+              <item name="__init__.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="urllib3" type="462c0819:PsiDirectoryNode" />
+              <item name="fields.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="urllib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="urllib" type="462c0819:PsiDirectoryNode" />
+              <item name="parse.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="urllib" type="462c0819:PsiDirectoryNode" />
+              <item name="request.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="parsel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="parsel" type="462c0819:PsiDirectoryNode" />
+              <item name="selector.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="parsel" type="462c0819:PsiDirectoryNode" />
+              <item name="selector.py" type="8704e2dd:PyFileNode" />
+              <item name="Selector" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="parsel" type="462c0819:PsiDirectoryNode" />
+              <item name="utils.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="urllib3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="urllib3" type="462c0819:PsiDirectoryNode" />
+              <item name="__init__.py" type="8704e2dd:PyFileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,10 +519,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Python\PythonPractice\GithubSpider" />
       <recent name="H:\Python\PythonPractice\multiThread" />
       <recent name="$PROJECT_DIR$/爬虫测试" />
       <recent name="$PROJECT_DIR$" />
@@ -235,7 +542,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test5">
+  <component name="RunManager" selected="Python.Github (1)">
     <configuration name="请求头加引号" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -258,7 +565,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FirstSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Github (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/anaconda3/python.app/Contents/MacOS/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GithubSpider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GithubSpider/Github.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Github" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonPractice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/anaconda3/python.app/Contents/MacOS/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="H:\Python\PythonPractice\GithubSpider\Github.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GithubSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,7 +622,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myscrapy/myscrapy/spiders/FirstSpider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myscrapy/myscrapy/spiders/GithubSpider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -324,64 +675,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test5" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonPractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/anaconda3/python.app/Contents/MacOS/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_concurent" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonPractice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/anaconda3/python.app/Contents/MacOS/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="H:\Python\PythonPractice\multiThread\test_concurent.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.test_concurent" />
-      <item itemvalue="Python.FirstSpider" />
       <item itemvalue="Python.execute" />
       <item itemvalue="Python.请求头加引号" />
-      <item itemvalue="Python.test5" />
+      <item itemvalue="Python.GithubSpider" />
+      <item itemvalue="Python.Github" />
+      <item itemvalue="Python.Github (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test5" />
-        <item itemvalue="Python.请求头加引号" />
+        <item itemvalue="Python.Github (1)" />
         <item itemvalue="Python.execute" />
-        <item itemvalue="Python.FirstSpider" />
-        <item itemvalue="Python.test_concurent" />
+        <item itemvalue="Python.Github" />
+        <item itemvalue="Python.请求头加引号" />
+        <item itemvalue="Python.GithubSpider" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +710,9 @@
       <workItem from="1561426336275" duration="3680000" />
       <workItem from="1561442715168" duration="812000" />
       <workItem from="1562662912493" duration="301000" />
-      <workItem from="1562722418286" duration="469000" />
+      <workItem from="1562722418286" duration="2438000" />
+      <workItem from="1562727623383" duration="748000" />
+      <workItem from="1562735142701" duration="13661000" />
     </task>
     <task id="LOCAL-00001" summary="remove file">
       <created>1561040487546</created>
@@ -412,23 +721,39 @@
       <option name="project" value="LOCAL" />
       <updated>1561040487546</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="remove file">
+      <created>1562723039391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562723039391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15605000" />
+    <option name="totallyTimeSpent" value="31983000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="163" y="0" width="1142" height="828" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2615527" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29297996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3178082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42175856" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2260274" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.71349096" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.488178" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.058414463" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -475,6 +800,11 @@
           <line>3</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/myscrapy/myscrapy/spiders/GithubSpider.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -487,198 +817,64 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonPractice$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1562722988628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonPractice$execute.coverage" NAME="execute Coverage Results" MODIFIED="1562747052805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myscrapy/myscrapy" />
+    <SUITE FILE_PATH="coverage/PythonPractice$Github.coverage" NAME="Github Coverage Results" MODIFIED="1562745138651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1561040023909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonPractice$.coverage" NAME="请求头加引号 Coverage Results" MODIFIED="1562722892002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonPractice$GithubSpider.coverage" NAME="GithubSpider Coverage Results" MODIFIED="1562728017000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myscrapy/myscrapy/spiders" />
+    <SUITE FILE_PATH="coverage/PythonPractice$Github__1_.coverage" NAME="Github (1) Coverage Results" MODIFIED="1562748750948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GithubSpider" />
+    <SUITE FILE_PATH="coverage/PythonPractice$.coverage" NAME="请求头加引号 Coverage Results" MODIFIED="1562743038200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1561039786220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkInter测试" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>os.path.isfile('~')</expression-string>
+        <expression-string>a[0].strip()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>os.path.lexists('/Users/mhm/444.txt')</expression-string>
+        <expression-string>[x.strip() for x in a]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>os.path.lexists('/Users/mhm/ddd/444.txt')</expression-string>
+        <expression-string>a[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>os.path.exists('/Users/mhm/ddd/444.txt')</expression-string>
+        <expression-string>self.urls</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>os.path.commonprefix('/Users/mhm/ddd/444.txt')</expression-string>
+        <expression-string>[x.strip for x in a]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>os.path.commonpath('/Users/mhm/ddd/444.txt')</expression-string>
+        <expression-string>[x for x in f.readlines()]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>os.path.normpath('/Users/mhm/ddd/444.txt')</expression-string>
+        <expression-string>[x  for x in f.readlines()]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>os.path.normcase('/Users/mhm/ddd/444.txt')</expression-string>
+        <expression-string>[x.strip for x in f.readlines()]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>os.path.splitext('/Users/mhm/ddd/444.txt')</expression-string>
+        <expression-string>f.readlines()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/socket测试/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/百度文库下载/downloadImg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#46#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/百度文库下载/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小说爬虫/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1548">
-          <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
-          <folding>
-            <element signature="e#47#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/items.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/知乎爬虫/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#47#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tkInter测试/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬取小说/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/签名设计/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text.txt" />
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_breakpoints.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/pathlib.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/queue.pyi">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/-1612705911/posix.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/genericpath.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ntpath.py" />
@@ -709,23 +905,6 @@
       </provider>
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/tasks.py" />
-    <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/execute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/spiders/FirstSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <element signature="e#400#413#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/asyncio/runners.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -740,73 +919,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multiThread/test7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#47#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiThread/test_concurent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="e#47#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/multiThread/test_threading2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiThread/testpool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiThread/testsubprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#18#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,10 +936,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/spiders/FirstSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="23" selection-start-line="20" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="e#400#413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy/http/request/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#18#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度文库下载/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5971">
+          <caret line="314" column="45" selection-start-line="314" selection-start-column="45" selection-end-line="314" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="1034" column="4" selection-start-line="1034" selection-start-column="4" selection-end-line="1034" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/urllib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/urllib3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="285" column="31" selection-start-line="285" selection-start-column="31" selection-end-line="285" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiThread/test7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="e#47#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiThread/test_concurent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#47#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiThread/testsubprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/items.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiThread/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/multiThread/processcomunicate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="276">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#47#89#0" expanded="true" />
           </folding>
@@ -837,13 +1073,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multiThread/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiThread/testpool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="18" selection-start-line="17" selection-start-column="4" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="e#47#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/441266147/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1789">
+          <caret line="358" column="40" selection-start-line="358" selection-start-column="40" selection-end-line="358" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/execute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/签名设计/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/知乎爬虫/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#47#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小说爬虫/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1679">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+          <folding>
+            <element signature="e#47#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/parsel/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#174#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/parsel/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/parsel/selector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="294" column="8" selection-start-line="294" selection-start-column="8" selection-end-line="294" selection-end-column="8" />
+          <folding>
+            <element signature="e#39#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GithubSpider/Github.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1702">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1562747500053" expanded="true" signature="2628:2807" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myscrapy/myscrapy/spiders/GithubSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬取小说/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/请求头加引号.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="440">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
         </state>
       </provider>
     </entry>
