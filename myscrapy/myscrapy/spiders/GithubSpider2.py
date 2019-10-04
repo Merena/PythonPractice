@@ -5,7 +5,7 @@ from myscrapy.items import RepoItem
 repos = []
 class GithubSpider(scrapy.Spider):
 
-    name = "GithubSpider"
+    name = "GithubSpider2"
     allowed_domains = ['github.com']
 
 
@@ -13,9 +13,11 @@ class GithubSpider(scrapy.Spider):
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        'Cache-Control': 'max-age=0',
         'Connection': 'keep-alive',
-        'Cookie': '_octo=GH1.1.1290119782.1559474823; _ga=GA1.2.71546662.1559474842; _device_id=b696399a06253b1b8195ecd257dad20c; logged_in=no; has_recent_activity=1; tz=Asia%2FShanghai; _gh_sess=cHRtOHlJdFVsSEc4cE1xTmk4TWw1MlJnU2VCMWpYVUxTZnlveDMvM2tySHZsV3ZUYklVQlVmcmZFSkFpa1JOTTV2RC9hUzF6QmgzUEJDU2F1bVFDR2x6VzZCbHVwbWc4Um02STBPSWI3QlczV2tJaW1ZSzErQ0lrUGdxMlV1SHl3dGs1bkQyU092OEJJM2tzR09pKzN6RFpJNkUwaUtSdGJtS3k0cXMwWE5WeDFlM25Da1NyT0w5ZWptcnJIMC9FNEZ2amJnbWkwWGZhQnBEOFFYV2p2WGplWCtzTi9Ha3RsNHI0R3I1V1YyWHJpbjhsbWdqN1pNS0tNRk9aemtVTXBMS0lKOEM0alVMenk3ZlJNT1Z1OGUxQmxBa2hnd2ZDbWM2dktyM0VhamtoYzQxSy9yTFI0MXA0YlZEeUkwczAxRjJ4SGx5VkFaanJOb0R0NzBFTHZlR01ydzNwa0dRa1hYMHhXa2cxamtsMjJ4U285aW1NSTZPdCtoZEt1QlRIQWNMbGtWREZnTUxaQktPS253dElWQT09LS1LRTJSV2lIS2h2SlRmZ0ErWVV3MFN3PT0%3D--48a72401544ab10ca5d28e041afcef67ff0d8838',
+        'Cookie': '_octo=GH1.1.1290119782.1559474823; _ga=GA1.2.71546662.1559474842; _device_id=b696399a06253b1b8195ecd257dad20c; tz=Asia%2FShanghai; user_session=qSpTxq-6vH8_sF7CWS8Bt81oPxOT5jfkB1T6s8JahbzfZsLc; __Host-user_session_same_site=qSpTxq-6vH8_sF7CWS8Bt81oPxOT5jfkB1T6s8JahbzfZsLc; logged_in=yes; dotcom_user=Merena; has_recent_activity=1; _gat=1; _gh_sess=SjJvamlXbjhmdlYxRmorYkNPeGJkdGI1c0VOQWVDa083bUxWdWkvVmcvWnNTVnVlK01tRXZDck56d0FpWno1SDNQZ21mNmZ5RVlHTzQxREVac1BSd0hRRkoxclJjelIvSHFteHFDVFdqVnJwUlhZeE9DVXZWblVoWitqV0I0bmF3WEFMOVVSOFZkZ0o4MXVKT2VTeDFzN0tLMFFncStkTDhFbXpZRmVVL2JsaXhnR0hYM2RJeXkxVFhZTGVxWXp1SzU3NGJScTV1aDhYZUtNNllpMmZyZ1lxWCt1TExkVWo3dFdSNEZYVTVUbz0tLXVFUjNneWlyYVVYaVo0TjZUbmV4Z2c9PQ%3D%3D--a78c7b3ae4f1f7ee1526e0aafa94c585313eda44',
         'Host': 'github.com',
+        'If-None-Match': 'W/"23a8ee73eea45224f3be70d1a2b0083b"',
         'Sec-Fetch-Mode': 'navigate',
         'Sec-Fetch-Site': 'none',
         'Sec-Fetch-User': '?1',
@@ -30,14 +32,15 @@ class GithubSpider(scrapy.Spider):
         for url in urls:
             yield scrapy.Request(url=url, headers=self.headers, callback=func)
 
-    def gen_urls(self, start=1, stop=20):
-        urls = ['https://github.com/search?l=Python&o=desc&p={p}&q=spider&s=&type=Repositories'.format(p=p) for p in
+    def gen_urls(self, start=1, stop=2):
+        urls = ['https://github.com/search?l=Python&o=desc&p={p}&q=start_requests&s=indexed&type=Code'.format(p=p) for p in
                 range(start, stop)]
         return urls
 
     def parse_resultcnt(self, response):
 
-        a = response.xpath('//*[@id="js-pjax-container"]/div/div[3]/div/ul/li')
+
+        a = response.xpath('//*[@id="code_search_results"]/div[1]/div[1]/div/div[2]/a/@data-hydro-click')
 
         for i in a:
             repo_info = i.xpath('.//@data-hydro-click').get()

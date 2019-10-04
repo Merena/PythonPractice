@@ -200,10 +200,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="68" />
+    <option name="x" value="36" />
     <option name="y" value="23" />
-    <option name="width" value="1317" />
-    <option name="height" value="828" />
+    <option name="width" value="1245" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -676,11 +676,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.execute" />
-      <item itemvalue="Python.请求头加引号" />
+      <item itemvalue="Python.Github (1)" />
       <item itemvalue="Python.GithubSpider" />
       <item itemvalue="Python.Github" />
-      <item itemvalue="Python.Github (1)" />
+      <item itemvalue="Python.请求头加引号" />
+      <item itemvalue="Python.execute" />
     </list>
     <recent_temporary>
       <list>
@@ -816,13 +816,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonPractice$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1562722988628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$execute.coverage" NAME="execute Coverage Results" MODIFIED="1562747052805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myscrapy/myscrapy" />
     <SUITE FILE_PATH="coverage/PythonPractice$Github.coverage" NAME="Github Coverage Results" MODIFIED="1562745138651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonPractice$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1561040023909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonPractice$GithubSpider.coverage" NAME="GithubSpider Coverage Results" MODIFIED="1562728017000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myscrapy/myscrapy/spiders" />
     <SUITE FILE_PATH="coverage/PythonPractice$Github__1_.coverage" NAME="Github (1) Coverage Results" MODIFIED="1562748750948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GithubSpider" />
+    <SUITE FILE_PATH="coverage/PythonPractice$GithubSpider.coverage" NAME="GithubSpider Coverage Results" MODIFIED="1562728017000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myscrapy/myscrapy/spiders" />
     <SUITE FILE_PATH="coverage/PythonPractice$.coverage" NAME="请求头加引号 Coverage Results" MODIFIED="1562743038200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonPractice$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1562722988628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonPractice$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1561040023909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractice$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1561039786220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkInter测试" />
   </component>
   <component name="debuggerHistoryManager">

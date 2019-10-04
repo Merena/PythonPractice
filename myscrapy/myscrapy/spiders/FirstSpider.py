@@ -20,19 +20,33 @@ https://geekori.com/help/videocourse/readme.html
 '''
 import scrapy
 from bs4 import *
+from myscrapy.items import CourseItem
+
 class BlogSpider(scrapy.Spider):
+
+
     name = 'blogspider'
-    start_urls = [
-        'https://geekori.com/blogsCenter.php?uid=geekori'
-        ]
-    def parse(self,response):
-        sectionList = response.xpath('//*[@id="all"]/div[1]/section').extract()
-        for section in sectionList:
-            bs = BeautifulSoup(section,'lxml')
-            articleDict = {}
-            a = bs.find('a')
-            articleDict['title'] = a.text
-            articleDict['href'] = 'https://geekori.com/' + a.get('href')
-            p = bs.find('p', class_='excerpt')
-            articleDict['abstract'] = p.text
-            print(articleDict)
+    # 设定域名
+    allowed_domains = ["imooc.com"]
+    # 填写爬取地址
+    start_urls = ["http://www.imooc.com/course/list"]
+
+    # 编写爬取方法
+    def parse(self, response):
+        # 实例一个容器保存爬取的信息
+        item = CourseItem()
+        # 这部分是爬取部分，使用xpath的方式选择信息，具体方法根据网页结构而定
+        # 先获取每个课程的div
+        for box in response.xpath('div.moco-course-list'):
+            # 获取每个div中的课程路径
+            item['url'] = 'http://www.imooc.com' + box.xpath('.//@href').extract()[0]
+            # 获取div中的课程标题
+            item['title'] = box.xpath('.//h3[@class="course-card-name"]/text()').extract()[0].strip()
+            # 获取div中的标题图片地址
+            item['image_url'] = 'http:' + box.xpath('.//@src').extract()[0]
+            # 获取div中的学生人数
+            item['student'] = box.xpath('.//span/text()').extract()[1].strip()
+            # 获取div中的课程简介
+            item['introduction'] = box.xpath('.//p/text()').extract()[0].strip()
+            # 返回信息
+            yield item

@@ -3,5 +3,5 @@
 
 from scrapy import cmdline
 
-cmdline.execute('scrapy crawl GithubSpider'.split())
+cmdline.execute('scrapy crawl GithubSpider2'.split())
 # cmdline.execute('scrapy crawl blogspider'.split())
