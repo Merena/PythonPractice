@@ -30,3 +30,13 @@ class RepoItem(scrapy.Item):
     url = scrapy.Field()
     update_time = scrapy.Field()
     stars = scrapy.Field()
+
+class AnjukeHouseItem(scrapy.Item):
+    img_url = scrapy.Field()
+    title = scrapy.Field()
+    detail_href = scrapy.Field()
+    addr = scrapy.Field()
+    good = scrapy.Field()
+    size = scrapy.Field()
+    price = scrapy.Field()
+

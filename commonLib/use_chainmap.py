@@ -18,3 +18,5 @@ command_line_args = { k: v for k, v in vars(namespace).items() if v }
 combined = ChainMap(command_line_args, os.environ, defaults)
 print('color=%s' % combined['color'])
 print('user=%s' % combined['user'])
+
+

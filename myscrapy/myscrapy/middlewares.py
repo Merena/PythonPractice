@@ -6,7 +6,12 @@
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-
+import scrapy
+import requests
+import json
+from fake_useragent import UserAgent
+from twisted.web._newclient import ResponseNeverReceived
+from twisted.internet.error import TimeoutError, ConnectionRefusedError, ConnectError
 
 class MyscrapySpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -101,3 +106,69 @@ class MyscrapyDownloaderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+
+
+# logger = logging.getLogger()
+
+class ProxyMiddleWare(object):
+    """docstring for ProxyMiddleWare"""
+    DONT_RETRY_ERRORS = (TimeoutError, ConnectionRefusedError, ResponseNeverReceived, ConnectError, ValueError)
+
+
+    def __init__(self):
+        super(ProxyMiddleWare, self).__init__()
+        self.err_dic = {}
+
+    def process_request(self,request, spider):
+        '''对request对象加上proxy'''
+        proxy = self.get_random_proxy()
+        print("this is request ip:"+proxy)
+        request.meta['proxy'] = proxy
+
+        ua = UserAgent()
+        request.headers['User-Agent'] = ua.random
+        print(request.headers['User-Agent'])
+
+    def delete_proxy(self, tmp_proxy):
+        requests.get("http://127.0.0.1:5010/delete/?proxy={}".format(tmp_proxy))
+
+    def process_response(self, request, response, spider):
+        '''对返回的response处理'''
+        proxy = request.meta['proxy']
+
+        # 如果返回的response状态不是200，重新生成当前request对象
+        if response.status != 200:
+            if proxy in self.err_dic.keys():
+                self.err_dic[proxy] += 1
+            else:
+                self.err_dic[proxy] = 1
+
+            if (self.err_dic[proxy] >= 5):
+                delete_proxy(self.err_dic[request.meta['proxy']])
+
+            proxy = self.get_random_proxy()
+            print("this is response ip:"+proxy)
+            # 对当前reque加上代理
+            request.meta['proxy'] = proxy
+            return request
+        else:
+            self.err_dic[proxy] = 0
+        return response
+
+        def process_exception(self, request, exception, spider):
+            if isinstance(exception, self.DONT_RETRY_ERRORS):
+                proxy = self.get_random_proxy()
+                print("this is response ip:" + proxy)
+                # 对当前reque加上代理
+                request.meta['proxy'] = proxy
+                return request
+
+    def get_random_proxy(self):
+        '''随机从文件中读取proxy'''
+        res = requests.get('http://127.0.0.1:8085/get')
+        res.encoding = res.apparent_encoding
+        proxy_dic = json.loads(res.text)
+        proxy = proxy_dic["proxy"]
+
+        return proxy
